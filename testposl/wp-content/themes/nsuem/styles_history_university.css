@@ -1,0 +1,414 @@
+/****Middle-hight****/
+.middle{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.breadcrumbs {
+    padding-top: 7px;
+    padding-bottom: 4px;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: -10px;
+}
+
+.breadcrumbs span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.breadcrumbs span > a {
+    display: block;
+    float: left;
+    height: 5px;
+    width: auto;
+    background: #134876;
+    text-align: center;
+    padding: 5px 3px 10px 13px;
+    line-height: 9px;
+    position: relative;
+    margin: 0 5px 0 0; 
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;  
+
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;  
+}
+
+.breadcrumbs span > a:after {
+    content: "";  
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #134876;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    z-index: 1;
+
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out; 
+}
+
+.breadcrumbs span > a:before {
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #d7d7d7;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.breadcrumbs span:first-child a {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.breadcrumbs span:first-child a:before {
+    display: none;
+}
+
+.breadcrumbs span a:hover {
+    background: none repeat scroll 0 0 #b8c1ce;
+}
+
+.breadcrumbs span a:hover:after {
+    border-left-color: #b8c1ce;
+}
+
+.current-bc{
+    display: block;
+    height: 5px;
+    width: auto;
+    background: #386790;
+    text-align: center;
+    padding: 5px 3px 10px 13px;
+    line-height: 9px;
+    position: relative;
+    margin: 0 5px 0 0; 
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;  
+
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out; 
+}
+
+.current-bc:after {
+    content: "";  
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #386790;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    z-index: 1;
+
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out; 
+}
+
+.current-bc:before {
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #d7d7d7;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.middle-content{
+    background: #fff;
+    padding-top: 25px;
+
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+.content-left{
+    width: 755px;
+    padding: 0 40px 50px 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-left p{
+    color: #232222;
+    margin-bottom: 15px;
+}
+
+.content-right{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    list-style: none;   
+}
+
+
+.link-cont{
+    display: block;
+    color: #134876;
+    margin-bottom: 5px;
+}
+
+.history-title{
+    font-size: 30px;
+    color: #134876;
+}
+
+
+/****NAGRADA****/
+
+.nagrada-link{
+    display: block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #134876;
+}
+
+.nagrada-link:hover{
+    color: #0a263f;
+}
+
+.nagrada-pic{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+
+/****Pressa***/
+
+.pressa-item{
+    background: #f4f4f4;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 8px;
+}
+
+.pressa-title{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    font-size: 18px;
+    color: #134876;
+}
+
+.pressa-title:hover{
+    text-decoration: none;
+}
+
+.pressa-pic{
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.pressa-post-pic{
+    float: right;
+}
+
+
+/****PUBLIC****/
+
+.public-post-pic{
+    width: 250px;
+    float: right;
+}
+
+
+/****ПЕРСОНАЛИИ****/
+
+.teacher-block{
+    display: block;
+    height: 170px;
+}
+
+.teacher-block-post{
+    display: block;
+    height: 330px;
+}
+
+.teacher{
+    width: 100px;
+}
+
+.teacher-post-pic{
+    width: 200px;
+}
+
+.teacher-link{
+    font-size: 21px;
+    text-decoration: none;
+    color: #134876;
+}
+
+
+/****ТАБЫ ПРЕПОДАВАТЕЛИ****/
+
+.tabs {
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0px;
+    margin: 0 auto;
+    display: block;
+}
+/* Стили секций с содержанием */
+.tabs>section {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: -15px;
+}
+.tabs>section>p {
+    margin: 0 0 5px;
+    line-height: 1.5;
+    color: #383838;
+    /* прикрутим анимацию */
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Прячем чекбоксы */
+.tabs>input {
+    display: none;
+    position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+    border: 0px solid #ddd;
+    border-width: 1px 1px 1px 1px;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;
+}
+
+/* Изменения стиля переключателей вкладок при наведении */
+ 
+.tabs>label:hover {
+    color: #888;
+    cursor: pointer;
+}
+/* Стили для активной вкладки */
+.tabs>input:checked+label {
+    color: #555;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4,#tab5:checked~#content-tab5 {
+    display: block;
+}
+
+
+.tab-link a{
+    text-decoration: none;
+    color: #134876;
+    display: block;
+}
+
+
+.nagrada-pic-post-teacher{
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+}
+
+.nagrada-tab p{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.nagrada-tab{
+    display: block;
+}
+
+
+/****ВЫСТАВКИ****/
+
+.vistavki-title{
+    font-size: 22px;
+    color: #134876;
+}
+
+.post-cont-link{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e374d;
+}
+
+.post-cont{
+    width:640px;
+}
+.post-cont-link:hover{
+    text-decoration: underline;
+}
+
+.pers-pic{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.pers-desc{
+    display: inline-block;
+    vertical-align: top;
+}
+.pers-pic img{
+    width: 100px;
+    border-radius: 6px;
+}
+.pers-list{
+    margin-left: 25px;
+}
